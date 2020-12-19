@@ -7,13 +7,13 @@ class Home extends Component {
         <div id="page">
           <div
             id="fh5co-explore"
-            class="fh5co-bg-section"
+            className="fh5co-bg-section"
             style={{ paddingBottom: "1px" }}
           >
-            <div class="container">
-              <div class="row animate-box">
+            <div className="container">
+              <div className="row animate-box">
                 <div
-                  class="col-md-6 col-md-offset-3 text-center fh5co-heading"
+                  className="col-md-6 col-md-offset-3 text-center fh5co-heading"
                   style={{ marginBottom: "0px" }}
                 >
                   <h2 style={{ fontWeight: "500" }}>Why to Choose Us </h2>
@@ -27,9 +27,12 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div id="fh5co-counter" class="fh5co-counters">
-              <div class="container" style={{ marginRight: "0px !important" }}>
-                <div class="row">
+            <div id="fh5co-counter" className="fh5co-counters">
+              <div
+                className="container"
+                style={{ marginRight: "0px !important" }}
+              >
+                <div className="row">
                   <div
                     style={{
                       margin: "6px",
@@ -38,16 +41,16 @@ class Home extends Component {
                       padding: "10px",
                       boxShadow: "5px 6px #0000001a"
                     }}
-                    class="col-md-2 text-center animate-box"
+                    className="col-md-2 text-center animate-box"
                   >
                     <span
                       style={{ fontSize: "40px", color: "#ff0000a1" }}
-                      class="fa fa-trophy fh5co-counter-label"
+                      className="fa fa-trophy fh5co-counter-label"
                     >
                       {" "}
                     </span>
-                    <span class="fh5co-counter-label">80%</span>
-                    <span class="fh5co-counter-label">Success</span>
+                    <span className="fh5co-counter-label">80%</span>
+                    <span className="fh5co-counter-label">Success</span>
                   </div>
                   <div
                     style={{
@@ -56,19 +59,19 @@ class Home extends Component {
                       borderRight: "none",
                       border: "1px solid #e2dbdb",
                       padding: "10px",
-                      boxShadow: "5px 6px #0000001a;"
+                      boxShadow: "5px 6px #0000001a"
                     }}
-                    class="col-md-2 text-center animate-box"
+                    className="col-md-2 text-center animate-box"
                   >
                     <span
                       style={{ fontSize: "40px", color: "#ff0000a1" }}
-                      class="fa fa-certificate fh5co-counter-label"
+                      className="fa fa-certificate fh5co-counter-label"
                     >
                       {" "}
                     </span>
 
-                    <span class="fh5co-counter-label">80k+ </span>
-                    <span class="fh5co-counter-label">Active Users</span>
+                    <span className="fh5co-counter-label">80k+ </span>
+                    <span className="fh5co-counter-label">Active Users</span>
                   </div>
                   <div
                     style={{
@@ -77,19 +80,19 @@ class Home extends Component {
                       borderRight: "none",
                       border: "1px solid #e2dbdb",
                       padding: "10px",
-                      boxShadow: "5px 6px #0000001a;"
+                      boxShadow: "5px 6px #0000001a"
                     }}
-                    class="col-md-2 text-center animate-box"
+                    className="col-md-2 text-center animate-box"
                   >
                     <span
                       style={{ fontSize: "40px", color: "#ff0000a1" }}
-                      class="fa fa-users fh5co-counter-label"
+                      className="fa fa-users fh5co-counter-label"
                     >
                       {" "}
                     </span>
 
-                    <span class="fh5co-counter-label">5k+</span>
-                    <span class="fh5co-counter-label">Matches</span>
+                    <span className="fh5co-counter-label">5k+</span>
+                    <span className="fh5co-counter-label">Matches</span>
                   </div>
                   <div
                     style={{
@@ -98,19 +101,19 @@ class Home extends Component {
                       borderRight: "none",
                       border: "1px solid #e2dbdb",
                       padding: "10px",
-                      boxShadow: "5px 6px #0000001a;"
+                      boxShadow: "5px 6px #0000001a"
                     }}
-                    class="col-md-2 text-center animate-box"
+                    className="col-md-2 text-center animate-box"
                   >
                     <span
                       style={{ fontSize: "40px", color: "#ff0000a1" }}
-                      class="fa fa-heart fh5co-counter-label"
+                      className="fa fa-heart fh5co-counter-label"
                     >
                       {" "}
                     </span>
 
-                    <span class="fh5co-counter-label">40 Events</span>
-                    <span class="fh5co-counter-label">Every Months</span>
+                    <span className="fh5co-counter-label">40 Events</span>
+                    <span className="fh5co-counter-label">Every Months</span>
                   </div>
                   <div
                     style={{
@@ -119,19 +122,19 @@ class Home extends Component {
                       borderRight: "none",
                       border: "1px solid #e2dbdb",
                       padding: "10px",
-                      boxShadow: "5px 6px #0000001a;"
+                      boxShadow: "5px 6px #0000001a"
                     }}
-                    class="col-md-2 text-center animate-box"
+                    className="col-md-2 text-center animate-box"
                   >
                     <span
                       style={{ fontSize: "40px", color: "#ff0000a1" }}
-                      class="fa fa-building fh5co-counter-label"
+                      className="fa fa-building fh5co-counter-label"
                     >
                       {" "}
                     </span>
 
-                    <span class="fh5co-counter-label">30+ Cities</span>
-                    <span class="fh5co-counter-label">Service</span>
+                    <span className="fh5co-counter-label">30+ Cities</span>
+                    <span className="fh5co-counter-label">Service</span>
                   </div>
                 </div>
               </div>
@@ -186,9 +189,9 @@ class Home extends Component {
           </div>
 
           <div id="fh5co-blog">
-            <div class="container">
-              <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+            <div className="container">
+              <div className="row animate-box">
+                <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
                   <h2>Upcoming Events</h2>
                   <p>
                     {" "}
@@ -197,91 +200,91 @@ class Home extends Component {
                   </p>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-4 col-md-4">
-                  <div class="fh5co-blog animate-box">
+              <div className="row">
+                <div className="col-lg-4 col-md-4">
+                  <div className="fh5co-blog animate-box">
                     <a href="#">
                       <img
-                        class="img-responsive"
+                        className="img-responsive"
                         src="assets/images/project-4.jpg"
                         alt=""
                       />
                     </a>
-                    <div class="blog-text">
+                    <div className="blog-text">
                       <h3>
                         <a href="#">lorm ipsum</a>
                       </h3>
-                      <span class="posted_on">Nov. 15th</span>
-                      <span class="comment">
+                      <span className="posted_on">Nov. 15th</span>
+                      <span className="comment">
                         <a href="">
-                          21<i class="icon-speech-bubble"></i>
+                          21<i className="icon-speech-bubble"></i>
                         </a>
                       </span>
                       <p>lorm ipsum lorm ipsuml orm ipsum</p>
                       <a
                         style={{ backgroundColor: "red" }}
                         href="#"
-                        class="btn btn-primary"
+                        className="btn btn-primary"
                       >
                         Read More
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4">
-                  <div class="fh5co-blog animate-box">
+                <div className="col-lg-4 col-md-4">
+                  <div className="fh5co-blog animate-box">
                     <a href="#">
                       <img
-                        class="img-responsive"
+                        className="img-responsive"
                         src="assets/images/project-2.jpg"
                         alt=""
                       />
                     </a>
-                    <div class="blog-text">
+                    <div className="blog-text">
                       <h3>
                         <a href="#"> lorm ipsum</a>
                       </h3>
-                      <span class="posted_on">Nov. 15th</span>
-                      <span class="comment">
+                      <span className="posted_on">Nov. 15th</span>
+                      <span className="comment">
                         <a href="">
-                          21<i class="icon-speech-bubble"></i>
+                          21<i className="icon-speech-bubble"></i>
                         </a>
                       </span>
                       <p>Far far away, </p>
                       <a
                         style={{ backgroundColor: "red" }}
                         href="#"
-                        class="btn btn-primary"
+                        className="btn btn-primary"
                       >
                         Read More
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4">
-                  <div class="fh5co-blog animate-box">
+                <div className="col-lg-4 col-md-4">
+                  <div className="fh5co-blog animate-box">
                     <a href="#">
                       <img
-                        class="img-responsive"
+                        className="img-responsive"
                         src="assets/images/project-3.jpg"
                         alt=""
                       />
                     </a>
-                    <div class="blog-text">
+                    <div className="blog-text">
                       <h3>
                         <a href="#">lorm ipsum</a>
                       </h3>
-                      <span class="posted_on">Nov. 15th</span>
-                      <span class="comment">
+                      <span className="posted_on">Nov. 15th</span>
+                      <span className="comment">
                         <a href="">
-                          21<i class="icon-speech-bubble"></i>
+                          21<i className="icon-speech-bubble"></i>
                         </a>
                       </span>
                       <p>Far lorm ipsumlorm ipsumlorm .</p>
                       <a
                         style={{ backgroundColor: "red" }}
                         href="#"
-                        class="btn btn-primary"
+                        className="btn btn-primary"
                       >
                         Read More
                       </a>
@@ -293,9 +296,9 @@ class Home extends Component {
           </div>
 
           <div id="fh5co-project">
-            <div class="container">
-              <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+            <div className="container">
+              <div className="row animate-box">
+                <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
                   <h2>Showcase of A Finish Projects</h2>
                   <p>
                     Dignissimos asperiores vitae velit veniam totam fuga
@@ -305,87 +308,87 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div class="container-fluid proj-bottom">
-              <div class="row">
+            <div className="container-fluid proj-bottom">
+              <div className="row">
                 <div
-                  class="col-md-4 col-sm-6 fh5co-project animate-box"
+                  className="col-md-4 col-sm-6 fh5co-project animate-box"
                   data-animate-effect="fadeIn"
                 >
                   <a href="#">
                     <img
                       src="assets/images/project-1.jpg"
                       alt="Free HTML5 Website Template by FreeHTML5.co"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                     <h3>Web Master</h3>
                     <span>View Course</span>
                   </a>
                 </div>
                 <div
-                  class="col-md-4 col-sm-6 fh5co-project animate-box"
+                  className="col-md-4 col-sm-6 fh5co-project animate-box"
                   data-animate-effect="fadeIn"
                 >
                   <a href="#">
                     <img
                       src="assets/images/project-2.jpg"
                       alt="Free HTML5 Website Template by FreeHTML5.co"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                     <h3>Virtual Assistant</h3>
                     <span>View Course</span>
                   </a>
                 </div>
                 <div
-                  class="col-md-4 col-sm-6 fh5co-project animate-box"
+                  className="col-md-4 col-sm-6 fh5co-project animate-box"
                   data-animate-effect="fadeIn"
                 >
                   <a href="#">
                     <img
                       src="assets/images/project-3.jpg"
                       alt="Free HTML5 Website Template by FreeHTML5.co"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                     <h3>Read Bible</h3>
                     <span>View Course</span>
                   </a>
                 </div>
                 <div
-                  class="col-md-4 col-sm-6 fh5co-project animate-box"
+                  className="col-md-4 col-sm-6 fh5co-project animate-box"
                   data-animate-effect="fadeIn"
                 >
                   <a href="#">
                     <img
                       src="assets/images/project-9.jpg"
                       alt="Free HTML5 Website Template by FreeHTML5.co"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                     <h3>Programming</h3>
                     <span>View Course</span>
                   </a>
                 </div>
                 <div
-                  class="col-md-4 col-sm-6 fh5co-project animate-box"
+                  className="col-md-4 col-sm-6 fh5co-project animate-box"
                   data-animate-effect="fadeIn"
                 >
                   <a href="#">
                     <img
                       src="assets/images/project-5.jpg"
                       alt="Free HTML5 Website Template by FreeHTML5.co"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                     <h3>Technician</h3>
                     <span>View Course</span>
                   </a>
                 </div>
                 <div
-                  class="col-md-4 col-sm-6 fh5co-project animate-box"
+                  className="col-md-4 col-sm-6 fh5co-project animate-box"
                   data-animate-effect="fadeIn"
                 >
                   <a href="#">
                     <img
                       src="assets/images/project-6.jpg"
                       alt="Free HTML5 Website Template by FreeHTML5.co"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                     <h3>Photography</h3>
                     <span>View Course</span>
@@ -393,10 +396,10 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div class="container">
-              <div class="row">
-                <div class="features">
-                  <div class="col-md-4 animate-box">
+            <div className="container">
+              <div className="row">
+                <div className="features">
+                  <div className="col-md-4 animate-box">
                     <h4>We have coolest features of this course</h4>
                     <p>
                       Far far away, behind the word mountains, far from the
@@ -404,7 +407,7 @@ class Home extends Component {
                       texts.{" "}
                     </p>
                   </div>
-                  <div class="col-md-4 animate-box">
+                  <div className="col-md-4 animate-box">
                     <h4>Great teachers that we have</h4>
                     <p>
                       Far far away, behind the word mountains, far from the
@@ -412,7 +415,7 @@ class Home extends Component {
                       texts.{" "}
                     </p>
                   </div>
-                  <div class="col-md-4 animate-box">
+                  <div className="col-md-4 animate-box">
                     <h4>Steps by steps turorial session</h4>
                     <p>
                       Far far away, behind the word mountains, far from the
@@ -421,9 +424,9 @@ class Home extends Component {
                     </p>
                   </div>
                 </div>
-                <div class="col-md-12 text-center animate-box">
+                <div className="col-md-12 text-center animate-box">
                   <p>
-                    <a class="btn btn-primary btn-lg btn-learn" href="#">
+                    <a className="btn btn-primary btn-lg btn-learn" href="#">
                       Create A Free Course
                     </a>
                   </p>
@@ -433,9 +436,9 @@ class Home extends Component {
           </div>
 
           <div id="fh5co-steps">
-            <div class="container">
-              <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+            <div className="container">
+              <div className="row animate-box">
+                <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
                   <h2>Start A Course</h2>
                   <p>
                     Dignissimos asperiores vitae velit veniam totam fuga
@@ -446,60 +449,60 @@ class Home extends Component {
               </div>
 
               <div
-                class="row bs-wizard animate-box"
+                className="row bs-wizard animate-box"
                 style={{ borderBottom: "0" }}
               >
-                <div class="col-xs-3 bs-wizard-step complete">
-                  <div class="text-center bs-wizard-stepnum">
+                <div className="col-xs-3 bs-wizard-step complete">
+                  <div className="text-center bs-wizard-stepnum">
                     <h4>Step 1</h4>
                   </div>
-                  <div class="progress">
-                    <div class="progress-bar"></div>
+                  <div className="progress">
+                    <div className="progress-bar"></div>
                   </div>
-                  <a href="#" class="bs-wizard-dot"></a>
-                  <div class="bs-wizard-info text-center">
+                  <a href="#" className="bs-wizard-dot"></a>
+                  <div className="bs-wizard-info text-center">
                     <p>Create A Free Course</p>
                   </div>
                 </div>
 
-                <div class="col-xs-3 bs-wizard-step active">
+                <div className="col-xs-3 bs-wizard-step active">
                   {/* <!-- complete --> */}
-                  <div class="text-center bs-wizard-stepnum">
+                  <div className="text-center bs-wizard-stepnum">
                     <h4>Step 2</h4>
                   </div>
-                  <div class="progress">
-                    <div class="progress-bar"></div>
+                  <div className="progress">
+                    <div className="progress-bar"></div>
                   </div>
-                  <a href="#" class="bs-wizard-dot"></a>
-                  <div class="bs-wizard-info text-center">
+                  <a href="#" className="bs-wizard-dot"></a>
+                  <div className="bs-wizard-info text-center">
                     <p>Upload Content</p>
                   </div>
                 </div>
 
-                <div class="col-xs-3 bs-wizard-step disabled">
+                <div className="col-xs-3 bs-wizard-step disabled">
                   {/* <!-- complete --> */}
-                  <div class="text-center bs-wizard-stepnum">
+                  <div className="text-center bs-wizard-stepnum">
                     <h4>Step 3</h4>
                   </div>
-                  <div class="progress">
-                    <div class="progress-bar"></div>
+                  <div className="progress">
+                    <div className="progress-bar"></div>
                   </div>
-                  <a href="#" class="bs-wizard-dot"></a>
-                  <div class="bs-wizard-info text-center">
+                  <a href="#" className="bs-wizard-dot"></a>
+                  <div className="bs-wizard-info text-center">
                     <p>Make Your Course Beautiful</p>
                   </div>
                 </div>
 
-                <div class="col-xs-3 bs-wizard-step disabled">
+                <div className="col-xs-3 bs-wizard-step disabled">
                   {/* <!-- active --> */}
-                  <div class="text-center bs-wizard-stepnum">
+                  <div className="text-center bs-wizard-stepnum">
                     <h4>Step 4</h4>
                   </div>
-                  <div class="progress">
-                    <div class="progress-bar"></div>
+                  <div className="progress">
+                    <div className="progress-bar"></div>
                   </div>
-                  <a href="#" class="bs-wizard-dot"></a>
-                  <div class="bs-wizard-info text-center">
+                  <a href="#" className="bs-wizard-dot"></a>
+                  <div className="bs-wizard-info text-center">
                     <p>Start Making Money</p>
                   </div>
                 </div>
@@ -507,25 +510,25 @@ class Home extends Component {
             </div>
           </div>
 
-          <div id="fh5co-testimonial" class="fh5co-bg-section">
-            <div class="container">
-              <div class="row animate-box">
-                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+          <div id="fh5co-testimonial" className="fh5co-bg-section">
+            <div className="container">
+              <div className="row animate-box">
+                <div className="col-md-6 col-md-offset-3 text-center fh5co-heading">
                   <h2>Testimonials</h2>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                  <div class="row animate-box">
-                    <div class="owl-carousel owl-carousel-fullwidth">
-                      <div class="item">
-                        <div class="testimony-slide active text-center">
+              <div className="row">
+                <div className="col-md-10 col-md-offset-1">
+                  <div className="row animate-box">
+                    <div className="owl-carousel owl-carousel-fullwidth">
+                      <div className="item">
+                        <div className="testimony-slide active text-center">
                           <figure>
                             <img src="assets/images/person_1.jpg" alt="user" />
                           </figure>
                           <span>
                             Jean Doe, via{" "}
-                            <a href="#" class="twitter">
+                            <a href="#" className="twitter">
                               Twitter
                             </a>
                           </span>
@@ -540,14 +543,14 @@ class Home extends Component {
                           </blockquote>
                         </div>
                       </div>
-                      <div class="item">
-                        <div class="testimony-slide active text-center">
+                      <div className="item">
+                        <div className="testimony-slide active text-center">
                           <figure>
                             <img src="assets/images/person_2.jpg" alt="user" />
                           </figure>
                           <span>
                             John Doe, via{" "}
-                            <a href="#" class="twitter">
+                            <a href="#" className="twitter">
                               Twitter
                             </a>
                           </span>
@@ -560,14 +563,14 @@ class Home extends Component {
                           </blockquote>
                         </div>
                       </div>
-                      <div class="item">
-                        <div class="testimony-slide active text-center">
+                      <div className="item">
+                        <div className="testimony-slide active text-center">
                           <figure>
                             <img src="assets/images/person_3.jpg" alt="user" />
                           </figure>
                           <span>
                             John Doe, via{" "}
-                            <a href="#" class="twitter">
+                            <a href="#" className="twitter">
                               Twitter
                             </a>
                           </span>
@@ -592,11 +595,23 @@ class Home extends Component {
             id="fh5co-started"
             style={{ backgroundImage: 'url("assets/images/img_bg_2.jpg")' }}
           >
-            <div class="overlay"></div>
-            <div class="container">
-              <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                  <h2>Lets Get Started</h2>
+            <div className="overlay"></div>
+            <div className="container">
+              <div className="row animate-box">
+                <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                  <h2>
+                    Subscribe Our{" "}
+                    <span
+                      style={{
+                        background: "red",
+                        padding: "5px",
+                        fontSize: "20px",
+                        fontWeight: "bold"
+                      }}
+                    >
+                      Newsletter
+                    </span>
+                  </h2>
                   <p>
                     Dignissimos asperiores vitae velit veniam totam fuga
                     molestias accusamus alias autem provident. Odit ab aliquam
@@ -604,11 +619,23 @@ class Home extends Component {
                   </p>
                 </div>
               </div>
-              <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center">
+              <div className="row animate-box">
+                <div className="col-md-8 col-md-offset-2 text-center">
+                  <div className="input-icons">
+                    <i className="fa fa-envelope icon"></i>
+                    <input
+                      className="input-field"
+                      type="text"
+                      placeholder="Email"
+                    />
+                  </div>
                   <p>
-                    <a href="#" class="btn btn-default btn-lg">
-                      Create A Free Course
+                    <a
+                      href="#"
+                      className="btn btn-default btn-lg rounded_box"
+                      style={{ backgroundColor: "red" }}
+                    >
+                      SUBSCRIBE NOW
                     </a>
                   </p>
                 </div>
@@ -617,9 +644,9 @@ class Home extends Component {
           </div>
         </div>
 
-        <div class="gototop js-top">
-          <a href="#" class="js-gotop">
-            <i class="icon-arrow-up"></i>
+        <div className="gototop js-top">
+          <a href="#" className="js-gotop">
+            <i className="icon-arrow-up"></i>
           </a>
         </div>
 

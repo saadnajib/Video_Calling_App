@@ -5,9 +5,9 @@ class Footer extends Component {
     return (
       <div>
         <footer id="fh5co-footer" role="contentinfo">
-          <div class="container">
-            <div class="row row-pb-md">
-              <div class="col-md-3 fh5co-widget">
+          <div className="container">
+            <div className="row row-pb-md">
+              <div className="col-md-3 fh5co-widget">
                 <h4>About Learning</h4>
                 <p>
                   Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
@@ -15,9 +15,9 @@ class Footer extends Component {
                   amet.
                 </p>
               </div>
-              <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+              <div className="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
                 <h4>Learning</h4>
-                <ul class="fh5co-footer-links">
+                <ul className="fh5co-footer-links">
                   <li>
                     <a href="#">Course</a>
                   </li>
@@ -36,9 +36,9 @@ class Footer extends Component {
                 </ul>
               </div>
 
-              <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+              <div className="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
                 <h4>Learn &amp; Grow</h4>
-                <ul class="fh5co-footer-links">
+                <ul className="fh5co-footer-links">
                   <li>
                     <a href="#">Blog</a>
                   </li>
@@ -57,9 +57,9 @@ class Footer extends Component {
                 </ul>
               </div>
 
-              <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+              <div className="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
                 <h4>Engage us</h4>
-                <ul class="fh5co-footer-links">
+                <ul className="fh5co-footer-links">
                   <li>
                     <a href="#">Marketing</a>
                   </li>
@@ -75,9 +75,9 @@ class Footer extends Component {
                 </ul>
               </div>
 
-              <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+              <div className="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
                 <h4>Legal</h4>
-                <ul class="fh5co-footer-links">
+                <ul className="fh5co-footer-links">
                   <li>
                     <a href="#">Find Designers</a>
                   </li>
@@ -97,13 +97,13 @@ class Footer extends Component {
               </div>
             </div>
 
-            <div class="row copyright">
-              <div class="col-md-12 text-center">
+            <div className="row copyright">
+              <div className="col-md-12 text-center">
                 <p>
-                  <small class="block">
+                  <small className="block">
                     &copy; 2016 Free HTML5. All Rights Reserved.
                   </small>
-                  <small class="block">
+                  <small className="block">
                     Designed by{" "}
                     <a href="http://freehtml5.co/" target="_blank">
                       FreeHTML5.co
@@ -115,25 +115,25 @@ class Footer extends Component {
                   </small>
                 </p>
                 <p>
-                  <ul class="fh5co-social-icons">
+                  <ul className="fh5co-social-icons">
                     <li>
                       <a href="#">
-                        <i class="icon-twitter"></i>
+                        <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="icon-facebook"></i>
+                        <i className="icon-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="icon-linkedin"></i>
+                        <i className="icon-linkedin"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="icon-dribbble"></i>
+                        <i className="icon-dribbble"></i>
                       </a>
                     </li>
                   </ul>
