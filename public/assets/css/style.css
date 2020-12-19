@@ -1667,7 +1667,7 @@ figure {
   padding-bottom: 2em !important;
 }
 
-.fh5co-loader {
+/*.fh5co-loader {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -1676,6 +1676,7 @@ figure {
   z-index: 9999;
   background: url(../images/loader.gif) center no-repeat #fff;
 }
+*/
 
 .js .animate-box {
   opacity: 0;

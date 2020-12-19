@@ -4,57 +4,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div class="fh5co-loader"></div>
-
         <div id="page">
-          <nav class="fh5co-nav" role="navigation">
-            <div class="top-menu">
-              <div class="container">
-                <div class="row">
-                  <div class="col-xs-1">
-                    <div id="fh5co-logo">
-                      <a href="index.html">
-                        Learn<span>.</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-xs-11 text-right menu-1">
-                    <ul>
-                      <li class="active">
-                        <a href="index.html">Home</a>
-                      </li>
-                      <li>
-                        <a href="courses.html">Events</a>
-                      </li>
-                      <li>
-                        <a href="pricing.html">Gallery</a>
-                      </li>
-
-                      <li>
-                        <a href="contact.html">Its Love</a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <span>Info</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <span>Blog</span>
-                        </a>
-                      </li>
-                      <li class="btn-cta">
-                        <a href="#">
-                          <span>Register</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-
           <div
             id="fh5co-explore"
             class="fh5co-bg-section"
