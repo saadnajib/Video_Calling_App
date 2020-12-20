@@ -206,7 +206,7 @@ class Home extends Component {
                     <a href="#">
                       <img
                         className="img-responsive"
-                        src="assets/images/project-4.jpg"
+                        src="assets/images/1.jpg"
                         alt=""
                       />
                     </a>
@@ -236,7 +236,7 @@ class Home extends Component {
                     <a href="#">
                       <img
                         className="img-responsive"
-                        src="assets/images/project-2.jpg"
+                        src="assets/images/2.jpg"
                         alt=""
                       />
                     </a>
@@ -266,7 +266,7 @@ class Home extends Component {
                     <a href="#">
                       <img
                         className="img-responsive"
-                        src="assets/images/project-3.jpg"
+                        src="assets/images/3.jpeg"
                         alt=""
                       />
                     </a>
@@ -295,305 +295,15 @@ class Home extends Component {
             </div>
           </div>
 
-          <div id="fh5co-project">
-            <div className="container">
-              <div className="row animate-box">
-                <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                  <h2>Showcase of A Finish Projects</h2>
-                  <p>
-                    Dignissimos asperiores vitae velit veniam totam fuga
-                    molestias accusamus alias autem provident. Odit ab aliquam
-                    dolor eius.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="container-fluid proj-bottom">
-              <div className="row">
-                <div
-                  className="col-md-4 col-sm-6 fh5co-project animate-box"
-                  data-animate-effect="fadeIn"
-                >
-                  <a href="#">
-                    <img
-                      src="assets/images/project-1.jpg"
-                      alt="Free HTML5 Website Template by FreeHTML5.co"
-                      className="img-responsive"
-                    />
-                    <h3>Web Master</h3>
-                    <span>View Course</span>
-                  </a>
-                </div>
-                <div
-                  className="col-md-4 col-sm-6 fh5co-project animate-box"
-                  data-animate-effect="fadeIn"
-                >
-                  <a href="#">
-                    <img
-                      src="assets/images/project-2.jpg"
-                      alt="Free HTML5 Website Template by FreeHTML5.co"
-                      className="img-responsive"
-                    />
-                    <h3>Virtual Assistant</h3>
-                    <span>View Course</span>
-                  </a>
-                </div>
-                <div
-                  className="col-md-4 col-sm-6 fh5co-project animate-box"
-                  data-animate-effect="fadeIn"
-                >
-                  <a href="#">
-                    <img
-                      src="assets/images/project-3.jpg"
-                      alt="Free HTML5 Website Template by FreeHTML5.co"
-                      className="img-responsive"
-                    />
-                    <h3>Read Bible</h3>
-                    <span>View Course</span>
-                  </a>
-                </div>
-                <div
-                  className="col-md-4 col-sm-6 fh5co-project animate-box"
-                  data-animate-effect="fadeIn"
-                >
-                  <a href="#">
-                    <img
-                      src="assets/images/project-9.jpg"
-                      alt="Free HTML5 Website Template by FreeHTML5.co"
-                      className="img-responsive"
-                    />
-                    <h3>Programming</h3>
-                    <span>View Course</span>
-                  </a>
-                </div>
-                <div
-                  className="col-md-4 col-sm-6 fh5co-project animate-box"
-                  data-animate-effect="fadeIn"
-                >
-                  <a href="#">
-                    <img
-                      src="assets/images/project-5.jpg"
-                      alt="Free HTML5 Website Template by FreeHTML5.co"
-                      className="img-responsive"
-                    />
-                    <h3>Technician</h3>
-                    <span>View Course</span>
-                  </a>
-                </div>
-                <div
-                  className="col-md-4 col-sm-6 fh5co-project animate-box"
-                  data-animate-effect="fadeIn"
-                >
-                  <a href="#">
-                    <img
-                      src="assets/images/project-6.jpg"
-                      alt="Free HTML5 Website Template by FreeHTML5.co"
-                      className="img-responsive"
-                    />
-                    <h3>Photography</h3>
-                    <span>View Course</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="container">
-              <div className="row">
-                <div className="features">
-                  <div className="col-md-4 animate-box">
-                    <h4>We have coolest features of this course</h4>
-                    <p>
-                      Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts.{" "}
-                    </p>
-                  </div>
-                  <div className="col-md-4 animate-box">
-                    <h4>Great teachers that we have</h4>
-                    <p>
-                      Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts.{" "}
-                    </p>
-                  </div>
-                  <div className="col-md-4 animate-box">
-                    <h4>Steps by steps turorial session</h4>
-                    <p>
-                      Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts.{" "}
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-12 text-center animate-box">
-                  <p>
-                    <a className="btn btn-primary btn-lg btn-learn" href="#">
-                      Create A Free Course
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+ 
 
-          <div id="fh5co-steps">
-            <div className="container">
-              <div className="row animate-box">
-                <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                  <h2>Start A Course</h2>
-                  <p>
-                    Dignissimos asperiores vitae velit veniam totam fuga
-                    molestias accusamus alias autem provident. Odit ab aliquam
-                    dolor eius.
-                  </p>
-                </div>
-              </div>
 
-              <div
-                className="row bs-wizard animate-box"
-                style={{ borderBottom: "0" }}
-              >
-                <div className="col-xs-3 bs-wizard-step complete">
-                  <div className="text-center bs-wizard-stepnum">
-                    <h4>Step 1</h4>
-                  </div>
-                  <div className="progress">
-                    <div className="progress-bar"></div>
-                  </div>
-                  <a href="#" className="bs-wizard-dot"></a>
-                  <div className="bs-wizard-info text-center">
-                    <p>Create A Free Course</p>
-                  </div>
-                </div>
 
-                <div className="col-xs-3 bs-wizard-step active">
-                  {/* <!-- complete --> */}
-                  <div className="text-center bs-wizard-stepnum">
-                    <h4>Step 2</h4>
-                  </div>
-                  <div className="progress">
-                    <div className="progress-bar"></div>
-                  </div>
-                  <a href="#" className="bs-wizard-dot"></a>
-                  <div className="bs-wizard-info text-center">
-                    <p>Upload Content</p>
-                  </div>
-                </div>
 
-                <div className="col-xs-3 bs-wizard-step disabled">
-                  {/* <!-- complete --> */}
-                  <div className="text-center bs-wizard-stepnum">
-                    <h4>Step 3</h4>
-                  </div>
-                  <div className="progress">
-                    <div className="progress-bar"></div>
-                  </div>
-                  <a href="#" className="bs-wizard-dot"></a>
-                  <div className="bs-wizard-info text-center">
-                    <p>Make Your Course Beautiful</p>
-                  </div>
-                </div>
-
-                <div className="col-xs-3 bs-wizard-step disabled">
-                  {/* <!-- active --> */}
-                  <div className="text-center bs-wizard-stepnum">
-                    <h4>Step 4</h4>
-                  </div>
-                  <div className="progress">
-                    <div className="progress-bar"></div>
-                  </div>
-                  <a href="#" className="bs-wizard-dot"></a>
-                  <div className="bs-wizard-info text-center">
-                    <p>Start Making Money</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div id="fh5co-testimonial" className="fh5co-bg-section">
-            <div className="container">
-              <div className="row animate-box">
-                <div className="col-md-6 col-md-offset-3 text-center fh5co-heading">
-                  <h2>Testimonials</h2>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-md-10 col-md-offset-1">
-                  <div className="row animate-box">
-                    <div className="owl-carousel owl-carousel-fullwidth">
-                      <div className="item">
-                        <div className="testimony-slide active text-center">
-                          <figure>
-                            <img src="assets/images/person_1.jpg" alt="user" />
-                          </figure>
-                          <span>
-                            Jean Doe, via{" "}
-                            <a href="#" className="twitter">
-                              Twitter
-                            </a>
-                          </span>
-                          <blockquote>
-                            <p>
-                              &ldquo;Far far away, behind the word mountains,
-                              far from the countries Vokalia and Consonantia,
-                              there live the blind texts. Separated they live in
-                              Bookmarksgrove right at the coast of the
-                              Semantics, a large language ocean.&rdquo;
-                            </p>
-                          </blockquote>
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="testimony-slide active text-center">
-                          <figure>
-                            <img src="assets/images/person_2.jpg" alt="user" />
-                          </figure>
-                          <span>
-                            John Doe, via{" "}
-                            <a href="#" className="twitter">
-                              Twitter
-                            </a>
-                          </span>
-                          <blockquote>
-                            <p>
-                              &ldquo;Separated they live in Bookmarksgrove right
-                              at the coast of the Semantics, a large language
-                              ocean.&rdquo;
-                            </p>
-                          </blockquote>
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="testimony-slide active text-center">
-                          <figure>
-                            <img src="assets/images/person_3.jpg" alt="user" />
-                          </figure>
-                          <span>
-                            John Doe, via{" "}
-                            <a href="#" className="twitter">
-                              Twitter
-                            </a>
-                          </span>
-                          <blockquote>
-                            <p>
-                              &ldquo;Far from the countries Vokalia and
-                              Consonantia, there live the blind texts. Separated
-                              they live in Bookmarksgrove right at the coast of
-                              the Semantics, a large language ocean.&rdquo;
-                            </p>
-                          </blockquote>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div
             id="fh5co-started"
-            style={{ backgroundImage: 'url("assets/images/img_bg_2.jpg")' }}
+            style={{ backgroundImage: 'url("assets/images/cover.jpg")' }}
           >
             <div className="overlay"></div>
             <div className="container">
@@ -601,16 +311,9 @@ class Home extends Component {
                 <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
                   <h2>
                     Subscribe Our{" "}
-                    <span
-                      style={{
-                        background: "red",
-                        padding: "5px",
-                        fontSize: "20px",
-                        fontWeight: "bold"
-                      }}
-                    >
+                    
                       Newsletter
-                    </span>
+                   
                   </h2>
                   <p>
                     Dignissimos asperiores vitae velit veniam totam fuga
