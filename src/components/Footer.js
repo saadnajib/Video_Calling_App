@@ -4,140 +4,76 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <footer id="fh5co-footer" role="contentinfo">
+        <footer style={{backgroundColor:'rgb(104 24 9)'}} id="fh5co-footer" role="contentinfo" b>
           <div className="container">
             <div className="row row-pb-md">
               <div className="col-md-3 fh5co-widget">
-                <h4>About Learning</h4>
-                <p>
-                  Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
-                  reprehenderit. Eos cumque dicta adipisci architecto culpa
-                  amet.
+                <h4 style={{color:'white'}}>About Us</h4>
+                <p style={{color:'white'}}> 
+                lorem ipsum dummy text this is unreal text but itss like real text when we have real text we will just replace it
                 </p>
               </div>
               <div className="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
-                <h4>Learning</h4>
+                <h4 style={{color:'white'}}>Quick Links</h4>
                 <ul className="fh5co-footer-links">
                   <li>
-                    <a href="#">Course</a>
+                    <a style={{color:'white'}} href="#">Home</a>
                   </li>
                   <li>
-                    <a href="#">Blog</a>
+                    <a style={{color:'white'}} href="#">Events</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a style={{color:'white'}} href="#">Its Love</a>
                   </li>
                   <li>
-                    <a href="#">Terms</a>
+                    <a style={{color:'white'}} href="#">About Us</a>
                   </li>
                   <li>
-                    <a href="#">Meetups</a>
+                    <a style={{color:'white'}} href="#">Register</a>
                   </li>
                 </ul>
               </div>
 
-              <div className="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
-                <h4>Learn &amp; Grow</h4>
-                <ul className="fh5co-footer-links">
-                  <li>
-                    <a href="#">Blog</a>
-                  </li>
-                  <li>
-                    <a href="#">Privacy</a>
-                  </li>
-                  <li>
-                    <a href="#">Testimonials</a>
-                  </li>
-                  <li>
-                    <a href="#">Handbook</a>
-                  </li>
-                  <li>
-                    <a href="#">Held Desk</a>
-                  </li>
-                </ul>
-              </div>
+             
+            
 
-              <div className="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
-                <h4>Engage us</h4>
-                <ul className="fh5co-footer-links">
-                  <li>
-                    <a href="#">Marketing</a>
-                  </li>
-                  <li>
-                    <a href="#">Visual Assistant</a>
-                  </li>
-                  <li>
-                    <a href="#">System Analysis</a>
-                  </li>
-                  <li>
-                    <a href="#">Advertise</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
-                <h4>Legal</h4>
-                <ul className="fh5co-footer-links">
-                  <li>
-                    <a href="#">Find Designers</a>
-                  </li>
-                  <li>
-                    <a href="#">Find Developers</a>
-                  </li>
-                  <li>
-                    <a href="#">Teams</a>
-                  </li>
-                  <li>
-                    <a href="#">Advertise</a>
-                  </li>
-                  <li>
-                    <a href="#">API</a>
-                  </li>
-                </ul>
+              <div className="col-md-4 col-sm-4 col-xs-6 col-md-push-1">
+                <h4 style={{color:'white'}}> JOIN US ON SOCIAL MEDIA</h4>
+                <ul className="fh5co-social-icons">
+                    <li>
+                      <a href="#">
+                        <i style={{color:'white'}} className="icon-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i style={{color:'white'}} className="icon-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i style={{color:'white'}} className="icon-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i style={{color:'white'}} className="icon-dribbble"></i>
+                      </a>
+                    </li>
+                  </ul>
               </div>
             </div>
 
             <div className="row copyright">
               <div className="col-md-12 text-center">
                 <p>
-                  <small className="block">
-                    &copy; 2016 Free HTML5. All Rights Reserved.
+                  <small style={{color:'white'}} className="block">
+                    &copy; LikeMind. All Rights Reserved.
                   </small>
-                  <small className="block">
-                    Designed by{" "}
-                    <a href="http://freehtml5.co/" target="_blank">
-                      FreeHTML5.co
-                    </a>{" "}
-                    Demo Images:{" "}
-                    <a href="http://unsplash.co/" target="_blank">
-                      Unsplash
-                    </a>
-                  </small>
+                 
                 </p>
-                <p>
-                  <ul className="fh5co-social-icons">
-                    <li>
-                      <a href="#">
-                        <i className="icon-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="icon-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="icon-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="icon-dribbble"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </p>
+               
+               
               </div>
             </div>
           </div>

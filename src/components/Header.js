@@ -14,7 +14,7 @@ class Header extends Component {
                   <div className="col-xs-1">
                     <div id="fh5co-logo">
                       <a href="index.html">
-                        Learn<span>.</span>
+                        LikeMind<span>.</span>
                       </a>
                     </div>
                   </div>
@@ -59,7 +59,7 @@ class Header extends Component {
             className="fh5co-cover"
             style={{ marginBottom: "0px!important" }}
             role="banner"
-            style={{ backgroundImage: 'url("assets/images/img_bg_1.jpg")' }}
+            style={{ backgroundImage: 'url("assets/images/bglikemind.jpeg")' }}
             data-stellar-background-ratio="0.5"
           >
             <div className="overlay"></div>
