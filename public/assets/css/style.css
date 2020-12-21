@@ -99,8 +99,8 @@ figure {
 .fh5co-nav {
   position: absolute;
   top: 0;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
   width: 100%;
   padding: 0;
   z-index: 1001;
@@ -1777,5 +1777,15 @@ a {
 
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
+  background-attachment: brown;
   text-align: center;
+}
+
+.top-navbar {
+  height: 100px;
+  background-size: auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
 }

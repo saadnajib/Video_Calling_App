@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-         <Header/>
+        <Header />
         <div id="page">
           <div
             id="fh5co-explore"
@@ -341,7 +341,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-<Footer/>
+        <Footer />
         <div className="gototop js-top">
           <a href="#" className="js-gotop">
             <i className="icon-arrow-up"></i>
