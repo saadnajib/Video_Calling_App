@@ -8,6 +8,7 @@ import Love from "./pages/Love";
 import Info from "./pages/Info";
 import Blog from "./pages/Blog";
 import Register from "./pages/Register";
+import {routes} from "../src/const/const";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -15,18 +16,18 @@ function App() {
   return (
     <div>
       <Router>
-        <Header />
+      
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/register" component={Register} />
-          <Route path="/events" component={Events} />
-          <Route path="/gallery" component={Gallery} />
-          <Route path="/love" component={Love} />
-          <Route path="/info" component={Info} />
-          <Route path="/blog" component={Blog} />
+          <Route exact path={routes.INDEX} component={Home} />
+          <Route path={routes.REGISTER} component={Register} />
+          <Route path={routes.EVENTS} component={Events} />
+          <Route path={routes.GALLERY} component={Gallery} />
+          <Route path={routes.LOVE} component={Love} />
+          <Route path={routes.INFO} component={Info} />
+          <Route path={routes.BLOG} component={Blog} />
         </Switch>
 
-        <Footer />
+         
       </Router>
     </div>
   );

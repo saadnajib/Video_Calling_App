@@ -1,20 +1,22 @@
 import React, { Component } from "react";
+import Footer from "../components/Footer";
 
 class Register extends Component {
   state = {};
   render() {
     return (
       <div>
-        <form action="action_page.php">
-          <div className="container">
-            <h1>Meet, Chat And Fall In Love</h1>
-            <p>Please fill in this form to create an account.</p>
-            <hr />
-
-            <label for="email">
-              <b>Email</b>
-            </label>
-            <input
+        <div className="fh5co-explore fh5co-explore1">
+			<div className="container">
+				<div className="row">
+					<div className="col-md-8 col-md-push-5 animate-box">
+						<img className="img-responsive" src="assets/images/work.png" alt="work"/>
+					</div>
+					<div className="col-md-4 col-md-pull-8 animate-box">
+						<div className="">
+							<p>Meet, Chat And Fall In Love</p>
+							<h5>Please fill in this form to create an account.</h5>
+              <input
               type="text"
               placeholder="Enter Email"
               name="email"
@@ -24,10 +26,6 @@ class Register extends Component {
               }}
               required
             />
-
-            <label for="psw">
-              <b>Password</b>
-            </label>
             <input
               type="password"
               placeholder="Enter Password"
@@ -38,11 +36,7 @@ class Register extends Component {
               }}
               required
             />
-
-            <label for="psw-repeat">
-              <b>Repeat Password</b>
-            </label>
-            <input
+               <input
               type="password"
               placeholder="Repeat Password"
               name="psw-repeat"
@@ -52,9 +46,9 @@ class Register extends Component {
               }}
               required
             />
-
-            <div className="">
-              <select
+            <div className="row">
+            <div className="col-md-3">
+ <select
                 name="gender"
                 id="gender"
                 style={{
@@ -68,11 +62,10 @@ class Register extends Component {
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
               </select>
-            </div>
+</div>
 
-            <br />
-
-            <div className="">
+<div className="col-md-9" style={{textAlign:'center'}}>
+<div className="">
               <label for="looking-for">
                 <b>Looking for</b>
               </label>
@@ -93,19 +86,20 @@ class Register extends Component {
                 Female
               </label>
             </div>
-            <hr />
+  
+  </div>
+            
+             </div>
+             
 
-            <button type="submit" className="registerbtn">
-              START NOW
-            </button>
-          </div>
-
-          <div className="container signin">
-            <p>
-              Already have an account? <a href="#">Sign in</a>.
-            </p>
-          </div>
-        </form>
+             
+							<p><a className="btn btn-primary btn-lg popup-vimeo btn-video" href="#"><i class="icon-play"></i> Start Now</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <Footer/>
       </div>
     );
   }

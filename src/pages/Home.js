@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 class Home extends Component {
   render() {
     return (
       <div>
+         <Header/>
         <div id="page">
           <div
             id="fh5co-explore"
@@ -338,7 +341,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-
+<Footer/>
         <div className="gototop js-top">
           <a href="#" className="js-gotop">
             <i className="icon-arrow-up"></i>
