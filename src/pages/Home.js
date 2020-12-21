@@ -295,12 +295,6 @@ class Home extends Component {
             </div>
           </div>
 
- 
-
-
-
-
-
           <div
             id="fh5co-started"
             style={{ backgroundImage: 'url("assets/images/cover.jpg")' }}
@@ -309,12 +303,7 @@ class Home extends Component {
             <div className="container">
               <div className="row animate-box">
                 <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                  <h2>
-                    Subscribe Our{" "}
-                    
-                      Newsletter
-                   
-                  </h2>
+                  <h2>Subscribe Our Newsletter</h2>
                   <p>
                     Dignissimos asperiores vitae velit veniam totam fuga
                     molestias accusamus alias autem provident. Odit ab aliquam
@@ -325,7 +314,10 @@ class Home extends Component {
               <div className="row animate-box">
                 <div className="col-md-8 col-md-offset-2 text-center">
                   <div className="input-icons">
-                    <i className="fa fa-envelope icon"></i>
+                    <i
+                      style={{ color: "black" }}
+                      className="fa fa-envelope icon"
+                    ></i>
                     <input
                       className="input-field"
                       type="text"

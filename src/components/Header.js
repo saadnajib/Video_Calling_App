@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Header extends Component {
   render() {
@@ -21,32 +22,28 @@ class Header extends Component {
                   <div className="col-xs-11 text-right menu-1">
                     <ul>
                       <li className="active">
-                        <a href="index.html">Home</a>
+                        <Link to="/">Home</Link>
                       </li>
                       <li>
-                        <a href="courses.html">Events</a>
+                        <Link to="/Events">Events</Link>
                       </li>
                       <li>
-                        <a href="pricing.html">Gallery</a>
+                        <Link to="/Gallery">Gallery</Link>
                       </li>
 
                       <li>
-                        <a href="contact.html">Its Love</a>
+                        <Link to="/Love">Its Love</Link>
                       </li>
                       <li>
-                        <a href="#">
-                          <span>Info</span>
-                        </a>
+                        <Link to="/Info">Info</Link>
                       </li>
                       <li>
-                        <a href="#">
-                          <span>Blog</span>
-                        </a>
+                        <Link to="/Blog">Blog</Link>
                       </li>
                       <li className="btn-cta">
-                        <a href="#">
+                        <Link to="/Register">
                           <span>Register</span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
